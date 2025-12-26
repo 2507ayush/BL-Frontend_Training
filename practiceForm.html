@@ -7,7 +7,7 @@
     <style>
         .formedit {
             width: 400px;
-            margin: 50px auto;
+            margin: 10px auto;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,10 +28,15 @@
             color: blue;
             background-color: yellow;
         }
-    </style>
+        p{
+            color: black;
+            background-color: violet;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+    <p>Register yourself for an epic Coding Showdown!</p>
     <form action="page.js" method="post" class="formedit">
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname" required>
@@ -45,7 +50,7 @@
         <label for="contact">Mobile No. :</label>
         <input type="number" id="contact" name="contact" required>
         <br>
-        <p>Gender :</p>
+        <p style="color: brown; text-align: center; background-color: skyblue;">Gender :</p>
         <input type="radio" id="m" name="Gender" value="Male" style="color: blueviolet;">
         <label for="m">Male</label><br>
         <input type="radio" id="f" name="Gender" value="Female">
