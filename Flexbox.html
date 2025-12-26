@@ -7,6 +7,7 @@
     <Style>
         .container {
             display:flex;
+            flex-direction: column;
             background-color: dodgerblue;
             margin: 30px;
             padding: 20px;
@@ -25,6 +26,12 @@
             body {
                 background-color: lightgreen;
                 }
+        }
+
+        @media screen and (max-width:600px){
+            .ccontainer{
+                flex-direction: column;
+            }
         }
 
     </Style>
