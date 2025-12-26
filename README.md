@@ -22,3 +22,21 @@ Frontend Training For Apexon starting with HTML, CSS and JS
         * Learned about CSS positions (Relative and Absolute).
       
       # Learned ways how to implement CSS on an HTML File.
+
+----------------------------------------------------------------------------------------------------
+
+      Day 2 - (26/12/25) ->
+        * Studied all the basics of FlexBox.
+        * Practiced FlexBox parent and child properties.
+        * Started with JS concepts.
+
+      # CSS - 
+        * Learned Flex Box.
+        * Learned CSS Media Querry.
+
+      # JS - 
+        * Started with JS.
+        * Advantages and Dis-advantages of JS.
+        * Different methods to create a function in JS.
+
+
