@@ -33,10 +33,12 @@ Frontend Training For Apexon starting with HTML, CSS and JS
       # CSS - 
         * Learned Flex Box.
         * Learned CSS Media Querry.
+        * Practiced MQ and Flex Box together and handeled responsiveness.
 
       # JS - 
         * Started with JS.
         * Advantages and Dis-advantages of JS.
         * Different methods to create a function in JS.
+        * Difference between Arrow Function and Normal Function.
 
 
