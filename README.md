@@ -41,4 +41,16 @@ Frontend Training For Apexon starting with HTML, CSS and JS
         * Different methods to create a function in JS.
         * Difference between Arrow Function and Normal Function.
 
+----------------------------------------------------------------------------------------------------
+
+      Day 3 - (27/12/25) -> 
+        * Started with JS.
+        * Learnt about JS Functions.
+        * Learnt about the difference between Arrow Function and Normal Function.
+        * Learnt about Function Curring.
+        * Learnt about Function Chaining.
+        * Learnt about Bootstrap.
+
+      # Solved the Practice Questions from JS provided by our trainer.
+
 
