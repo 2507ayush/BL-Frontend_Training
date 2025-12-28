@@ -53,4 +53,9 @@ Frontend Training For Apexon starting with HTML, CSS and JS
 
       # Solved the Practice Questions from JS provided by our trainer.
 
+----------------------------------------------------------------------------------------------------
 
+      Day 4 - (28/12/25) ->
+         * Solved some more practice ques on JS for better understanding of concepts.
+         * Created a new Repo for the Adobe Payroll Website.
+         * Created UI for the Adobe Payroll Website project.
