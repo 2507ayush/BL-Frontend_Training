@@ -22,26 +22,19 @@
             padding: 20px;
             height: 300px; 
         }
-        @media (max-width: 768px) {
-            #header {
+        @media (max-width: 700px) {
+            #head {
                 height: 20vh;
                 padding: 10px;
             }
-            #footer {
+            #foot {
                 height: 20vh;
                 padding: 10px;
             }
-            #two {
+            #nav {
                 flex-direction: column;
-                ;
             }
-            .coli {
-                height: 18vh;
-                width: 100%;
-                float: none;
-                margin-bottom: 10px;
-            }
-            #content {
+            #art {
                 height: 70vh;
                 width: 100%;
                 float: none;
@@ -54,25 +47,25 @@
 <body>
 
     <div class="container">
-        <header id="header">
+        <header id="head">
             Header
         </header>
 
         <div class="row">
-            <nav class="col-md-2 coli">
+            <nav class="col-md-2" id="nav">
                 Nav
             </nav>
 
-            <article class="col-md-8" id="content">
+            <article class="col-md-8" id="art">
                 Article
             </article>
 
-            <nav class="col-md-2 coli">
+            <nav class="col-md-2" id="nav">
                 Nav
             </nav>
         </div>
 
-        <footer id="footer">
+        <footer id="foot">
             Footer
         </footer>
     </div>
