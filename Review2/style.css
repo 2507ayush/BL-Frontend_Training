@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back {
+    height: 100vh;
+    background: url("https://wallpaperaccess.com/full/81539.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.nav-l a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.h {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#scroll {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+.disp {
+    padding: 15px;
+    background: #111;
+    color: white;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 30px;
+}
+
+.container img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.center-text p {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.cards-container {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    background: #f2f2f2;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-wrapper {
+    padding: 60px;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+#card-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-group button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    border: none;
+    background: #111;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background: #333;
+}
